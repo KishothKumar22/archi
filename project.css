@@ -1,0 +1,27 @@
+#project-a .items {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding-left: 100px; padding-top: 50px; padding-right: 100px; padding-bottom: 50px;
+  grid-gap: 1rem; 
+  width: 1500px;
+  height: 1500px;
+  justify-items: center;
+}
+  #project-a .items .text-title {
+    font-size: 1.2rem;
+    display: none;
+    transition: all 0.2s ease-in; }
+  #project-a .items img {
+    width: 330px;
+    height: 330px;
+    transition: all 0.2s ease; }
+    #project-a .items img:hover {
+      opacity: 0.7;
+      width: 330px;
+      height: 330px; 
+    }
+  #project-a .items .item:hover .text-title {
+    display: block; } 
+.text-center2{
+  text-align: center;
+}
